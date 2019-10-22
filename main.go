@@ -6,7 +6,7 @@ import (
 	"net/rpc"
 	"os"
 
-	cakebaker "github.com/gertcuykens/module"
+	cakebaker "github.com/gertcuykens/module/v5"
 )
 
 func main() {
