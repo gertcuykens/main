@@ -1,4 +1,4 @@
-module main
+module github.com/gertcuykens/main
 
 go 1.14
 
