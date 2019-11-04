@@ -6,10 +6,12 @@ import (
 	"net/rpc"
 	"os"
 
+	. "github.com/gertcuykens/main/hello"
 	cakebaker "github.com/gertcuykens/module/v5"
 )
 
 func main() {
+	fmt.Println(Hello())
 	srv := rpc.NewServer()
 	srv.Register(new(cakebaker.CakeBaker))
 
